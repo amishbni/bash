@@ -1,0 +1,4 @@
+#!/bin/bash
+
+awk -F ';' '{sum+=length($2)}END{print sum/NR}' ~/.zsh_history
+
