@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# tsfc - time since first command
 function display_time {
 	local T="$1"
 	local D="$((T/60/60/24))"
